@@ -1,0 +1,28 @@
+.boxprops
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.link-contato
+{
+    width: 80%;
+    text-decoration: none;
+    font-size: 16px;
+    color: #070719;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5px;
+}
+
+.link-contato:hover
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #B45F04;
+    transition-duration: 1s;
+}

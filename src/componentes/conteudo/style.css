@@ -1,0 +1,200 @@
+.main
+{
+    display: flex;
+    flex-flow: wrap;
+    align-content: space-between;
+    background-image: url('../../../public/assets/pngwing.com.png');
+    background-repeat: repeat;
+
+}
+
+/*Primeira seção*/
+
+.secao1
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixa1
+{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    border-right: 2px solid #363636;
+    border-bottom: 2px solid #363636;
+    margin: 20px;
+    box-sizing: border-box;
+}
+.titulo1
+{
+    color: #0B0B61;
+    text-shadow: 0px 1px 1px #363636;
+    width: 100%;
+    text-align: center;
+}
+span
+{
+    background: #B45F04;
+}
+
+/*segunda seção*/
+
+.secao2
+{
+    width: 100%;
+    height: auto;   
+}
+
+.caixa2
+{
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    border-top: 2px solid #070719;
+    border-left: 2px solid #070719;
+    border-bottom: 2px solid #070719;
+    float: right;
+    margin: 20px;
+    text-align: center;
+    
+}
+
+.apresentacao
+{
+    color: #B45F04;
+    text-shadow: 0px 1px 2px black;
+    padding: 10px;
+    border-radius: 10px 5px 10px 5px;
+    font-weight: 700;
+    font-size: 24px;
+    float:right;
+}
+
+.autor
+{
+    width: 50%;
+    color: #070719;
+    font-weight: bold;
+    margin-left: 20px;
+    border-top: 2px solid #070719;
+    border-right: 2px solid #070719;
+    padding: 10px;
+
+}
+
+/*Terceira seção*/
+
+.box-titulo2
+{
+    width: 50%;
+    height: auto;
+    margin: 20px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+
+.titulo2
+{
+    color: white;
+    background: #0A0A2A;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 5px 15px 5px 15px;
+    font-weight: 700;
+    text-shadow: 0px 1px 2px black;
+}
+
+/*Seção Cards*/
+
+.cards
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    background-image: url('../../../public/assets/fundo1.jpg');
+    background-size: cover;
+    box-shadow: 0px 1px 10px black;
+}
+
+.dev
+{
+
+    width: 300px;
+    height: 100px;
+    margin: 2%;
+    background-color: #151626;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px white;
+}
+.dev:hover
+{
+    box-shadow: inset 0 0 1em white;
+}
+
+.icones
+{
+    width: 15%;
+    height: auto;
+}
+.icones:hover
+{
+    border: 2px solid #B45F04;
+    transition-duration: 1s;
+    box-shadow: 0px 1px 10px black;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.paragrafo-card
+{
+    color: white;
+    font-weight: 300;
+}
+
+
+/*Seção 3*/
+
+.secao3
+{
+    width: 100%;
+    height: auto;
+}
+
+.caixa-curtiu
+{
+    width: 50%;
+    height: auto;
+    margin: 20px;
+    border-left: 2px solid #070719;
+    border-bottom: 2px solid #070719;
+    float: right;
+    display: flex;
+    justify-content: center;
+}
+
+.hehe
+{
+    width: 70%;
+    color: white;
+    background: #070719;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 5px 15px 5px 15px;
+    font-weight: 700;
+    text-shadow: 0px 1px 2px black;
+}
