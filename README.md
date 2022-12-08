@@ -1,2 +1,2 @@
-Portifólio com todas a referencias, um pequeno resumo da minha vida e links de contato.
+Portifólio com todas as referências, links de contato e habilidades adquiridas nesse inicio de jornada.
 
