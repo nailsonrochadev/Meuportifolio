@@ -1,187 +1,84 @@
 .quemsou
 {
     width: 100%;
-    height: 100%;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
 }
-.caixa-qs
+
+.box-quemsou-1
 {
     width: 100%;
-    height: auto;
-    background-image: url('/public/assets/fundo-qs.jpg');
-    background-size: cover;
+    display: flex;
+    justify-content: space-around;
     box-shadow: 0px 1px 10px black;
+
 }
 
-.h1
+.box-quem-1
 {
     width: 40%;
-    height: auto;
-    background: white;
-    border-radius: 5px 30px 5px 30px;
-    box-shadow: 0px 1px 10px black;
-    text-align: center;
-    margin: 20px;
-    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-right: 2px solid #070719;
 }
 
-.p1
+.box-imagem-quemsou-1
+{
+    width: 40%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.img
+{
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid green;
+}
+
+
+.titulo-quemsou-1
 {
     color: #070719;
+    padding: 10px;
     font-size: 24px;
-    font-weight: 600;
-    margin: 0;
 }
 
+.paragrafo-quemsou-1
+{
+    color: #070719;
+}
 
-.box-brincar, .resumo
+/*Seção 2*/
+
+.box-quemsou-2
 {
     width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
 }
-
-.p-brincar
+.box2
 {
-    width: 20%;
-    height: auto;
+    width: 50%;
     border-left: 2px solid #070719;
     border-bottom: 2px solid #070719;
-    border-right: 2px solid #070719;
-    padding: 10px;
-    color: #0B615E;
-    font-weight: 600;
-}
-
-
-.container4
-{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    background-image: url('/public/assets/pngwing.com.png');
-    background-size: contain;
-}
-
-.boxe
-{
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    box-shadow: 0px 1px 10px black;
-    margin: 50px;
-}
-
-.title
-{
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    background: #FFFFFF;
-    color: #070719;
-}
-
-.text
-{
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    background: white;
-    font-weight: 600;
-    color: #070719;
-}
-
-.circle
-{
-    width: auto;
-    height: auto;
-    padding: 15px;
-    background: white;
-    box-shadow: 0px 1px 5px #070719;
-    font-weight: bold;
-    font-size: 24px;
-    color: white;
-    border-radius: 10px;
-}
-
-
-
-.circle:hover
-{
-    width: auto;
-    box-shadow: inset 0 0 1em white;
-    text-shadow: 0px 1px 5px #070719;
-    color: white;
-    transition-duration: 2s;
-
-}
-
-.p-resumo
-{
-    width: 20%;
-    height: auto;
-    border-left: 2px solid #070719;
     border-top: 2px solid #070719;
-    border-right: 2px solid #070719;
     padding: 10px;
-    color: #0B615E;
-    font-weight: 600;
+    float: right;
+    margin: 10px;
 }
 
-.texto-sou
+.titulo-quemsou-2
 {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-evenly;
-    background-image: url('/public/assets/fundo-qs.jpg');
-    box-shadow: 0px 1px 10px black;
-   
-}
-
-.meu-texto
-{
-    width: 100%;
-    text-align: left;
-    margin: 20px;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-around;
-    align-content: space-between;
-}
-
-.p-1, .p-2, .p-3, .p-4, .p-5, .p-6
-{
-    width: 30%;
     color: #070719;
-    padding: 10px;
-    background: white;
-    border-radius: 5px 30px 5px 30px;
-    box-shadow: 0px 1px 10px black;
-    font-size: 15px;
-    font-weight: 500; 
-}
-.p-1:hover, .p-2:hover, .p-3:hover, .p-4:hover, .p-5:hover, .p-6:hover
-{
-    border-radius: 30px 5px 30px 5px;
 }
 
-
-
-.album
+.paragrafo-quemsou-3
 {
-    width: 100%;
-    height: auto;
-    background-image: url('/public/assets/pngwing.com.png');
-    background-size: contain;
+    color: #070719;
 }
 
 .minha-foto
@@ -196,4 +93,22 @@
 {
     border-radius: 5px 20px 5px 20px;
     box-shadow: 0px 1px 10px black;
+}
+
+
+/*Seção 3*/
+
+.box-quemsou-3
+{
+    width: 100%;
+}
+
+.box-quem-3
+{
+    width: 50%;
+    border-top: 2px solid #070719;
+    border-right: 2px solid #070719;
+    border-bottom: 2px solid #070719;
+    padding: 10px;
+    margin: 10px;
 }

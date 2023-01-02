@@ -6,100 +6,87 @@ import Rodape from '../../componentes/rodape';
 
 export default function QuemSou (){
 
-    let data = new Date()
-    let ano = data.getFullYear()
-    let anoNascimento = 1993
-
-    let resultado = ano - anoNascimento
-
     return(
         <section className='quemsou'>
 
             <TopoSecundario/>
 
-            <div className='caixa-qs'>
-                <div className='h1'>
-                    <p className='p1'>Sejam bem-vindos ao quem sou!</p>
+            <div  className='box-quemsou-1'>
+                <div className='box-quem-1'>
+                    <h1 className='titulo-quemsou-1'>Quem sou</h1>
+                    
+                    <p className='paragrafo-quemsou-1'>Meu nome é <span>Nailson Rocha</span>, tenho 29 anos, casado, pai de um lindo casal, natural de Salvador.</p>
+                    
+                    <p className='paragrafo-quemsou-1'>Não há nada tão difífil como falar de nós mesmos, mas adoro desafios. Me considero curioso e sempre inovador. 
+                        Estou sempre em busca de novidades, principalmente quando não me sinto satisfesito com algo. Procuro sempre 
+                        manter a sanidade mental em dia, pois acredito que a mente seja o nosso "software". Na falta de manuntenção
+                        torna-se absoleto.
+                    </p>
+                    
+                    <p className='paragrafo-quemsou-1'>Sendo assim, o campo é meu prato predileto. É lá que encontro a família e tudo que me  faz bem.
+                        Além disso, sou compositor e poeta nas horas vagas. Isso mudou completamente minha vida, pois me estimulou a ler mais, a ser mais detalhista,
+                        a ouvir e nunca parar numa simples linha.
+                    </p>
+                    
+                    <p className='paragrafo-quemsou-1'>Hoje, dedico a maior parte do meu tempo para essa nova "descoberta". A tecnologia. Uma grata supresa que mudou completamente minha rotina e 
+                        espero que continue mudando. Meus planos futuros será me tornar FullStack. Foco e determinação não faltará. 
+                    </p>
+                </div>
+                <div className='box-imagem-quemsou-1'>
+                    <img className='img' src='assets/foto4.jpg' alt='Foto'></img>
                 </div>
             </div>
 
-            <div  className='box-brincar'>
-                <p className='p-brincar'>Vamos brincar?</p>
-            </div>
 
-            <section className='container4'>
-
-                <div className='boxe'>
-                    <h3 className='title'>Sabe minha <span>idade</span>?</h3>
-
-                    <p className='text'>Passe o mouse no quadrado</p>
-
-                    <p className='circle'>{resultado}</p>
-
-                </div>
-
-                <div className='boxe'>
-                    <h3 className='title'>Se tenho <span>filhos</span>?</h3>
-
-                    <p className='text'>Passe o mouse no quadrado</p>
-
-                    <p className='circle'>Casal</p>
-
-                </div>
-
-                <div className='boxe'>
-                    <h3 className='title'>Minha <span>cidade</span>?</h3>
-
-                    <p className='text'>Passe o mouse no quadrado</p>
-
-                    <p className='circle'>Salvador</p>
-                </div>
-
-                
-            </section>
-
-            <div  className='resumo'>
-                <p className='p-resumo'>Um breve resumo</p>
-            </div>
-
-            <section className='texto-sou'>
-                <div className='meu-texto'>
-
-                    <p className='p-1'>
-                        Sou apaixonado pelo Esporte Clube Bahia, assuntos políticos e leituras aleatórias. Além disso,
-                        sou muito ligado à zona rural. Amo a vida no campo e o silêncio e encantos que a natureza nos proporciona.  
-                    </p>
-                    <p className='p-2'>
-                        Busco sempre desenvolver minhas tarefas com profissionalismo, mesmo não estando satisfeito. Também, sempre
-                        espero um feedback positivo nas tarefas realizadas. É sempre bom. Não sou muito fã de festas, prefiro
-                        estar em paz em casa com a família. São meus melhores parceiros.
-                    </p>
-                    <p className='p-3'>
-                        Entretando, após ter indicação de um amigo para entrar na área de TI, comecei a pesquisar e realizei uma aula
-                        experimental na DevMedia. A experiência foi sensacional. Me indentifiquei bastante e decidir dar continuidade 
-                        no curso.
-                    </p>
-                    <p className='p-4'>
-                        Poeta e compositor nos momentos solitários, me entrego quando o assunto é caneta e papel. Sou um cara 
-                        bem curioso e adoro novidades. Me dou bem com pessoas e tento ajudar sempre que necessário. Entretando,
-                        não sou opinativo, a não ser quando sou acionado. Mas, gosto de ouvir opiniões. 
-                    </p>
-                    <p className='p-5'>
-                        Meu contato com a tecnologia sempre foi hardware. Quebrando um rádio aqui, outro controle ali, tinha imensa 
-                        curiosidade em saber como as coisas funcionavam. Software "era coisa de nerd" e eu não me considerava um. 
-                    </p>
-                    <p className='p-6'>
-                        A priori, o Front-end foi a minha escolha para poder iniciar na área da tecnologia com o pé direito. Porém, 
-                        tenho planos futuros que podem agregar ainda mais. Pretendo me tornar um FullStack e estou trabalhando muito 
-                        para alcançar esse objetivo. Espero ter resumido de maneira sucinta.
-                    </p>
-                </div>
-            </section>
-
-            <div  className='box-brincar'>
-                <p className='p-brincar'>Euzinho</p>
-            </div>
             
+                
+  
+
+            <section className='box-quemsou-2'>
+                <div className='box2'>
+                    <h2 className='titulo-quemsou-2'>Minhas experiências</h2>
+                    <p className='paragrafo-quemsou-3'>
+                        Minha expertise é no atendimento ao cliente, pois a maior parte da minha carreira 
+                        profissional foi tendo contato direto. Atualmemte sou profissional da área de beleza 
+                        com foco no atendimento masculino.
+                    </p>
+
+                    <p className='paragrafo-quemsou-3'>
+                        Além de barbeiro, tenho vasta experiência comprovada na área de hotelaria, com destaque, também, 
+                        para o atendimento. Do mesmo modo, fui soldado da Polícia do Exército onde desempenhava atividades 
+                        com cães de guarda. Aqui, destaco o trabalho em equipe e a disciplina.
+                    </p>
+
+                    <p className='paragrafo-quemsou-3'>
+                        Nesse pluradidade de atividades, adquirir diferentes habilidades que hoje se tornaram ferramentas 
+                        essenciais no meu dia-a-dia. E uma duas maiores liçoes aprendida foi que devemos sempre estar prontos
+                        para mudanças. Isso é inevitavel. 
+                    </p>
+
+                </div>
+            </section>
+
+            <div  className='box-quemsou-3'>
+                <div className='box-quem-3'>
+                <h1 className='titulo-quemsou-3'>Formação</h1>
+                
+                <p className='paragrafo-quemsou-3'>No Colégio Central da Bahia concluir meu ensino médio. </p>
+                
+                <p className='paragrafo-quemsou-3'>Tenho cursos de capacitação profisional voltados para empreendimento. São eles: 
+                Gestão Empresarial, Gestão em Logistica, Liderança, Empreendedorismo, Técnicas de vendas, Marketing, Publicidade e Propaganda.
+                </p>
+                
+                <p className='paragrafo-quemsou-3'>Também tenho cursos profissionalizantes de Informática e manuntenção de smartphones. Ambas 
+                as áreas com experiência de mercado.
+                </p>
+                
+                <p className='paragrafo-quemsou-3'>Por fim, cursei por um curto período Engeharia de Software, entretanto, dei prioridade
+                a formação prática, pois tem conteúdos mais atualizados e tem uma preparação mais focada no mercado de trabalho.
+
+                </p>
+                </div>
+            </div>
+           
             <section className='album'>
                 <img className='minha-foto' src='../assets/foto4.jpg' alt='Foto'/>
             </section>

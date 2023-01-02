@@ -8,18 +8,18 @@ export default function Conteudo(){
     return(
         <main className='main'>
             <TopoPrincipal/>
-            <section className='secao1'>
-                <div className='caixa1'>
-                    <h2 className='titulo1'>
-                        Olá! Eu sou o <span>Nailson Rocha</span>! 
+            <section className='secao-conteudo-1'>
+                <div className='caixa-conteudo-1'>
+                    <h2 className='titulo-conteudo-1'>
+                        Sejam bem-vindos ao meu portifólio!
                     </h2>
-                    <h2 className='titulo1'>Esse é o meu portifólio</h2>
+                    <p className='paragrafo-conteudo-1'>Naveguem e conheçam um pouco mais sobre mim, saibam quais as minhas expectativas no universo tecnológico e minhas principais habilidades no desenvolvimento Front-end.</p>
                 </div>
             </section>
             
-            <section  className='secao2'>
-                <div className='caixa2'>
-                    <p className='apresentacao'>
+            <section  className='secao-conteudo-2'>
+                <div className='caixa-conteudo-2'>
+                    <p className='citacao'>
                         "Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema"
                     </p>
                     <p className='autor'>
@@ -28,8 +28,8 @@ export default function Conteudo(){
                 </div>
             </section>
 
-            <div className='box-titulo2'>
-                <h2 className='titulo2'>Minhas <span>Habil</span>idades</h2>
+            <div className='secao-conteudo-3'>
+                <h2 className='titulo-conteudo-3'>Minhas <span className='span'>Habil</span>idades</h2>
             </div>
 
             <section className='cards'>
@@ -78,10 +78,21 @@ export default function Conteudo(){
 
             </section>
 
-            <section className='secao3'>
-                <div className='caixa-curtiu'>
-                    <p className='hehe'>
-                        Hehe! Curtindo? vem comigo bebê 😀
+            <section className='secao-conteudo-4'>
+                <div className='caixa-conteudo-4'>
+                    <p className='paragrafo-conteudo-4'>
+                        Acima tem alguns dos cursos práticos Front-end na linguagem JavaScript. Minha principal habilidade é com a biblioteca React.
+                        Com o React consigo desenvolver sites responsivos, trabalhar com componentes, props, SPAs etc. Apessar da falta de experiência de mercado,
+                        tento entregar um código limpo e de fácil entendimento. Mas, sei que tenho muito a aprender com esse universo tecnológico.
+                        Sinto-me muito realizado com essa nova experiência e pretendo investir muito para adquirir mais conhecimento na área.
+                    </p>
+                </div>
+            </section>
+
+            <section className='secao-conteudo-5'>
+                <div className='caixa-conteudo-5'>
+                    <p className='paragrafo-conteudo-5'>
+                        Em construção...
                     </p>
                 </div>
             </section>
