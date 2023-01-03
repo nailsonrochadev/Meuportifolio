@@ -1,4 +1,6 @@
-.quemsou
+/*Pagina Geral*/
+
+.geral
 {
     width: 100%;
     display: flex;
@@ -7,108 +9,202 @@
     align-items: center;
 }
 
-.box-quemsou-1
-{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    box-shadow: 0px 1px 10px black;
+/*Apresentacao*/
 
+.box-pai-apresentacao
+{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
 }
 
-.box-quem-1
+.box-filho-apresentacao
 {
-    width: 40%;
+    width: 50%;
     padding: 10px;
     margin: 10px;
-    border-right: 2px solid #070719;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
 }
 
-.box-imagem-quemsou-1
+.titulo-apresentacao
 {
-    width: 40%;
-    border: 1px solid red;
+    width: auto;
+    color: #fff;
+    font-size: 40px;
+    text-align: left;
+}
+
+/*Quem sou*/
+
+.quemsou
+{
+    width: 100%;
+    min-width: auto;
+    height: auto;
+    min-height: 600px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    align-content: space-around;
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(67deg, #070719 50%, #fff 50%);
+}
+
+.box-paragrafos-quemsou
+{
+    width: 40%;
+    padding: 10px;
     margin: 10px;
+    background: #070719;
+    box-shadow: 0px 1px solid black;
+    border: 3px solid #424242;
+    border-radius: 20px;
 }
-.img
+
+.img-quemsou
 {
-    width: 60%;
+    width: 80px;
     height: auto;
-    padding: 10px;
-    border: 1px solid green;
 }
 
-
-.titulo-quemsou-1
+.paragrafo-quemsou
 {
-    color: #070719;
-    padding: 10px;
-    font-size: 24px;
+    color: #fff;
+    padding: 15px;
+    font-size: 14px;
+    text-align: start;
 }
 
-.paragrafo-quemsou-1
+
+
+.titulo-quemsou
 {
-    color: #070719;
+    width: auto;
+    color: #fff;
+    background: #424242;
+    padding: 5px;
+    border-radius: 10px;
 }
 
-/*Seção 2*/
+/*Formação*/
 
-.box-quemsou-2
+.formacao
 {
-    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    min-width: auto;
+    height: auto;
+    min-height: 600px;
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(-67deg, #070719 50%, #fff 50%);
 }
-.box2
+
+.box-formacao-titulo-paragrafo
 {
     width: 50%;
-    border-left: 2px solid #070719;
-    border-bottom: 2px solid #070719;
-    border-top: 2px solid #070719;
     padding: 10px;
-    float: right;
     margin: 10px;
+    background: #070719;
+    border: 3px solid #B45F04;
+    border-radius: 20px;
 }
 
-.titulo-quemsou-2
+.titulo-formacao
 {
-    color: #070719;
+    color: #fff;
+    background: #B45F04;
+    width: auto;
+    padding: 5px;
+    border-radius: 10px;
 }
 
-.paragrafo-quemsou-3
+.paragrafo-formacao
 {
-    color: #070719;
+    color: #fff;
+    padding: 15px;
+    font-size: 14px;
+    text-align: start;
 }
 
-.minha-foto
+/*Experiencias*/
+
+.experiencias
 {
-    width: 20%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-width: auto;
     height: auto;
-    margin: 20px;
-    box-shadow: 0px 1px 10px #0B615E;
-    border-radius: 20px 5px 20px 5px;
+    min-height: 600px;
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(67deg, #070719  50%, #fff 50%);
 }
-.minha-foto:hover
+
+.titulo-experiencia
 {
-    border-radius: 5px 20px 5px 20px;
-    box-shadow: 0px 1px 10px black;
+    width: auto;
+    color: #fff;
+    background: #0B615E;
+    width: auto;
+    padding: 5px;
+    border-radius: 10px;
 }
 
+.box-paragrafos-experiencia
+{
+    width: 40%;
+    background: #070719;
+    border: 3px solid #0B615E;
+    border-radius: 20px;
+}
+.paragrafo-experiencia
+{
+    padding: 15px;
+    color: #fff;
+    font-size: 14px;
+    text-align: start;
+}
 
-/*Seção 3*/
+/*Midia*/
 
-.box-quemsou-3
+.midia
 {
     width: 100%;
+    min-width: auto;
+    height: auto;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(-67deg, #070719 50%, #fff 50%);
 }
 
-.box-quem-3
+.titulo-midia
 {
-    width: 50%;
-    border-top: 2px solid #070719;
-    border-right: 2px solid #070719;
-    border-bottom: 2px solid #070719;
-    padding: 10px;
-    margin: 10px;
+    color: #fff;
+    background: #5E610B;
+    width: auto;
+    padding: 5px;
+    border-radius: 10px;
 }
+
+.box-midia
+{
+    background: #070719;
+    border: 3px solid #fff;
+}
+
+.encapsulamento
+{
+    border: 3px solid #070719;
+}
+
