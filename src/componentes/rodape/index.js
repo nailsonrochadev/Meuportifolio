@@ -4,7 +4,7 @@ import './style.css';
 export default function Rodape(){
     return(
         <footer className='footer'>
-            <p>Desenvolvida pelo programador Front-end Nailson Rocha</p>
+            <p>Desenvolvido por Nailson Rocha</p>
         </footer>
     );
 }
