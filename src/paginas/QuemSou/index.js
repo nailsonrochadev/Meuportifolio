@@ -4,16 +4,53 @@ import './style.css';
 import { TopoSecundario } from '../../componentes/TopoSecundário';
 import Rodape from '../../componentes/rodape';
 
+/*
+import Dia from '../../componentes/anime/dia.png';
+import Tarde from '../../componentes/anime/tarde.png';
+import Noite from '../../componentes/anime/noite.png';
+*/
+
 export default function QuemSou (){
 
     const dataAtual = new Date()
+    const hora = dataAtual.getHours()
+    const dia = dataAtual.getDay()
+    const mes = dataAtual.getMonth()
     const ano = dataAtual.getFullYear()
     const anoNascimento = 1993
-    const hora = dataAtual.getHours()
-
     const idade = ano - anoNascimento
 
+
+    let anos;
+
+    if(mes >= 0 && mes <= 4 && dia <= 9){
+        anos = idade - 1
+    }else {
+        anos = idade + 1
+    }
+
+
+    let mensagem
     
+    if(hora >= 1 && hora < 12){
+        mensagem = 'Bom dia';
+    }else if(hora >= 12 && hora < 18){
+        mensagem = 'Boa tarde';
+    }else{
+        mensagem = 'Boa noite';
+    }
+
+    /*
+    let anime;
+   if(mensagem === 'Bom dia  '){
+    anime = Dia
+   }else if(mensagem === 'Boa tarde  '){
+    anime = Tarde
+   }else{
+    anime = Noite
+   }
+   <img className='anime' src={anime} alt='Dia'/>
+   */
 
     return(
         /*Pagina Geral*/
@@ -23,7 +60,8 @@ export default function QuemSou (){
        
             <div  className='box-pai-apresentacao'>
                 <div className='box-filho-apresentacao'>
-                    <h1 className='titulo-apresentacao'>Eu sou o Nailson Rocha</h1>
+                    <h1 className='titulo-apresentacao'>{mensagem}</h1>
+                    <h2 className='titulo-apresentacao'>Sejam <span>bem</span>-vindos!</h2>
                 </div>
             </div>
 
@@ -33,7 +71,7 @@ export default function QuemSou (){
                 <div className='box-paragrafos-quemsou'>
                     <img className='img-quemsou' src='assets/cara.png' alt='Quem sou'/>
 
-                    <p className='paragrafo-quemsou'>Tenho {idade} anos, casado, pai de um lindo casal, natural de Salvador.</p>
+                    <p className='paragrafo-quemsou'>Meu nome é Nailson Rocha, tenho {anos} anos, casado, pai de um lindo casal, natural de Salvador.</p>
                     
                     <p className='paragrafo-quemsou'>Não há nada tão difífil como falar de nós mesmos, mas adoro desafios. Me considero curioso e sempre inovador. 
                         Estou sempre em busca de novidades, principalmente quando não me sinto satisfesito com algo. Procuro sempre 
