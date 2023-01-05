@@ -166,7 +166,7 @@ export default function QuemSou (){
                 <div className='encapsulamento'>
                     <div className='box-midia'>
                         
-                            <video width='640' height='360'
+                            <video className='video' width='640' height='360'
                             src='midia/video.mp4'
                             controls
                             >

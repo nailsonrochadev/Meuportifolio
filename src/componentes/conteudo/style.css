@@ -210,3 +210,53 @@ span
     text-align: center;
     
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .secao-conteudo-1{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .secao-conteudo-1{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .caixa-conteudo-1{
+        width: 80%;
+        border: none;
+    }
+
+
+    .secao-conteudo-2{
+        display: none;
+    }
+
+   
+    .secao-conteudo-3{
+        display: none;
+    }
+
+
+    .secao-conteudo-4{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .caixa-conteudo-4{
+        width: 100%;
+        border: none;
+    }
+    .paragrafo-conteudo-4{
+        width: 100%;
+    }
+
+
+    
+    .secao-conteudo-5{
+        display: none;
+    }
+}
+
