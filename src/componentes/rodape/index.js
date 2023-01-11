@@ -3,8 +3,8 @@ import './style.css';
 
 export default function Rodape(){
     return(
-        <footer className='footer'>
-            <p>Desenvolvido por Nailson Rocha</p>
-        </footer>
+        <div className='footer'>
+            <p className='paragrafo-footer'>Desenvolvido por Nailson Rocha</p>
+        </div>
     );
 }

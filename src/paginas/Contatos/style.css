@@ -1,9 +1,16 @@
+.contatos
+{
+    width: 100%;
+    background: #FAFAFA;
+}
+
 .boxprops
 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 355px;
 }
 
 .link-contato

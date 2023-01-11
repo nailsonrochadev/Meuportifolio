@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Conteudo from '../componentes/conteudo';
 import QuemSou from '../paginas/QuemSou';
 import Contato from '../paginas/Contatos';
+import Repositorios from '../paginas/Repositorios/Repositorios';
 
 export default function Rotas (){
     return(
@@ -12,6 +13,7 @@ export default function Rotas (){
                 <Route exact path='/' element={<Conteudo/>}/>
                 <Route path='/quemsou' element={<QuemSou/>}/>
                 <Route path='/contatos' element={<Contato/>}/>
+                <Route path='/repositorios' element={<Repositorios/>}/>
             </Routes>
         </BrowserRouter>
     );   

@@ -3,6 +3,7 @@ import './style.css';
 
 import { TopoSecundario } from '../../componentes/TopoSecundário'
 import { Propriedades } from '../../componentes/props/props';
+import Rodape from '../../componentes/rodape'
 
 import telefone from '../../icones/telefone.png'
 import email from '../../icones/email.png'
@@ -16,15 +17,17 @@ export default function Contatos (){
     
     return(
 
-    <div className="boxprops">
+    <div className="contatos">
     <TopoSecundario/>
-
-    <Propriedades className = 'box tel'         imagem = {telefone}     nome = {<a className='link-contato' href='https://criarmeulink.com.br/u/1670125792' target='blank'>Telefone</a>}/>
-    <Propriedades className = 'box email'       imagem = {email}        nome = {<a className='link-contato' href='https://criarmeulink.com.br/u/1670125716' target='blank'>Email</a>}/>
-    <Propriedades className = 'box twitter'     imagem = {twitter}      nome = {<a className='link-contato' href='https://twitter.com/NailsonRocha_'         target='blank'>Twitter</a>}/>
-    <Propriedades className = 'box instagram'   imagem = {instagram}    nome = {<a className='link-contato' href                                            target='blank'>Em construção</a>}/>
-    <Propriedades className = 'box whatsapp'    imagem = {whatsapp}     nome = {<a className='link-contato' href='https://criarmeulink.com.br/u/1670467795' target='blank'>whatsapp</a>}/>
-    <Propriedades className = 'box facebook'    imagem = {facebook}     nome = {<a className='link-contato' href                                            target='blank'>Em construção</a>}/>
+        <div className="boxprops">
+            <Propriedades className = 'box tel'         imagem = {telefone}     nome = {<a className='link-contato' href='https://criarmeulink.com.br/u/1670125792' target='blank'>Telefone</a>}/>
+            <Propriedades className = 'box email'       imagem = {email}        nome = {<a className='link-contato' href='https://criarmeulink.com.br/u/1670125716' target='blank'>Email</a>}/>
+            <Propriedades className = 'box twitter'     imagem = {twitter}      nome = {<a className='link-contato' href='https://twitter.com/NailsonRocha_'         target='blank'>Twitter</a>}/>
+            <Propriedades className = 'box instagram'   imagem = {instagram}    nome = {<a className='link-contato' href                                            target='blank'>Em construção</a>}/>
+            <Propriedades className = 'box whatsapp'    imagem = {whatsapp}     nome = {<a className='link-contato' href='https://criarmeulink.com.br/u/1670467795' target='blank'>whatsapp</a>}/>
+            <Propriedades className = 'box facebook'    imagem = {facebook}     nome = {<a className='link-contato' href                                            target='blank'>Em construção</a>}/>
+        </div>
+    <Rodape/>
     </div>
 
     );
