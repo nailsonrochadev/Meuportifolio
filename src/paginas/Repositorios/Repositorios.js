@@ -26,9 +26,7 @@ export default function Repositorios (){
                         <a className="link-repositorio" href="https://github.com/NailsonRocha/Projeto-advocacia"        target="blank">Escritório</a>
                         <a className="link-repositorio" href="https://github.com/NailsonRocha/Pousada"                  target="blank">Pousada</a>
                     </div>
-                    <div className="imagem-repositorio">
-                        <img className="avatar" src="assets/avar.png" alt="Avatar"/>                    
-                    </div>
+                  
                 </section>
             <Rodape/>
         </div>

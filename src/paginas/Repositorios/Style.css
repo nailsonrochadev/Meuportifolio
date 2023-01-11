@@ -63,18 +63,3 @@
     transition-duration: 2s;
 }
 
-.imagem-repositorio
-{
-    display: flex;
-    justify-content: flex-start;
-    float: left;
-    width: 40%;
-    height: auto;
-}
-
-.avatar
-{
-    width: 80%;
-    height: auto;
-}
-
