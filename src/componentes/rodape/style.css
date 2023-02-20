@@ -1,6 +1,7 @@
 .roda 
 {
     width: 100%;
+    height: auto;
     display: flex;
     flex-flow: column;
     background-color: #070719;
@@ -43,15 +44,15 @@
 .footer
 {
     width: 100%;
-    height: auto;
+    height: 100vh;
     display: flex;
     flex-flow: nowrap;
-    align-content: center;
+    align-items: center;
     background-color: #0A122A;
     background-image: url('../../../public/assets/31.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-x: 700px;
+    background-position-x: 650px;
 }
 
 .footer-caixa-links
