@@ -6,14 +6,13 @@ import './style.css';
 
 export default function TopoPrincipal (){
     return(
-        <header className='header'>
-            <nav className='links'>
-                <Link className='naro' to='/'>ᑎᗩᖇO</Link>
-                <Link className='link qmsou' to='/quemsou'>QUEM SOU</Link>
-                <Link className='link' to='/repositorios' >REPOSITÓRIOS</Link>
-                <a className='link linkedin' href='https://www.linkedin.com/in/nailson-rocha-a2b993246/' target='blank'>LINKEDIN</a>
-                <a className='link ferramenta' href>FERRAMENTAS</a>
-                <Link className='link' to='/contatos'>CONTATO</Link>
+        <header className='topo-principal'>
+            <Link className='logo-topo-principal' to='/'>ᑎᗩᖇO</Link>
+            <nav className='nav-topo-principal'>
+                <a className='link-topo-principal qmsou' href='#quem-sou'>QUEM SOU</a>
+                <a className='link-topo-principal' href='#repositorios' >REPOSITÓRIOS</a>
+                <a className='link-topo-principal linkedin' href='https://www.linkedin.com/in/nailson-rocha-a2b993246/' target='blank'>LINKEDIN</a>
+                <a className='link-topo-principal' href='#contatos'>CONTATO</a>
             </nav>
         </header>
     );

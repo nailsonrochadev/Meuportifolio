@@ -1,263 +1,172 @@
-.main
+.conteudo
 {
     display: flex;
     flex-flow: wrap;
     align-content: space-between;
-    background: #FAFAFA;;
+    background: #0A122A;
 }
 
 /*Primeira seção*/
 
-.secao-conteudo-1
+.boasvindas
 {
     width: 100%;
     height: auto;
+    margin-top: 50px;
+}
+
+.box-boasvindas
+{
+    width: 50%;
+    height: auto;
+    padding: 10px;
     display: flex;
-    flex-flow: nowrap;
-    justify-content: space-between;
+    flex-flow: column;
+    margin: 20px;
+    text-align: left;
+}
+.titulo-boasvindas
+{
+    color: #fff;
+    margin: 0px;
+    border-radius: 5px 10px 5px 10px;
+    font-size: 50px;
+    margin-left: 200px;
+
+}
+
+.paragrafo-boasvindas
+{
+    color: #fff;
+}
+
+
+/*segunda seção*/
+
+.cards-habilidades
+{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: space-around;
+}
+
+.habilidades
+{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    margin: 30px;
+}
+
+.box-frontend, .box-ferramentas, .box-formacao, .box-cursos, .box-experiencia
+{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-content: space-around;
+    background: #0A122A;
+    border-radius: 5px;
+    border: 1px solid #01A9DB;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 5px;
+    box-shadow: 0px 1px 10px black;
+}
+
+.box-frontend:hover, .box-ferramentas:hover, .box-formacao:hover, .box-cursos:hover, .box-experiencia:hover
+{
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    transition-duration: 3s;
+}
+
+.titulo-habilidade-frontend
+{
+    font-size: 13px;
+    color: #DF0174;
+    font-weight: bold;
+}
+
+
+.titulo-habilidade-ferramenta
+{
+    font-size: 13px;
+    color: #F5BCA9;
+    font-weight: bold;
+}
+
+.titulo-habilidade-formacao
+{
+    font-size: 13px;
+    color: #00FFFF;
+    font-weight: bold;
+}
+
+.titulo-habilidade-curso
+{
+    font-size: 13px;
+    color: #FA8258;
+    font-weight: bold;
+}
+.titulo-habilidade-experiencia
+{
+    font-size: 13px;
+    color: #FFBF00;
+    font-weight: bold;
+}
+
+.paragrafo-habilidade-frontend, .paragrafo-habilidade-ferramenta, .paragrafo-habilidade-formacao, .paragrafo-habilidade-curso, .paragrafo-habilidade-experiencia
+{
+    color: #fff;
+    font-size: 13px;
+}
+
+.box-icone
+{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
 
-.caixa-conteudo-1
-{
-    width: 50%;
-    height: auto;
-    padding: 10px;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
-    border-right: 2px solid #363636;
-    border-bottom: 2px solid #363636;
-    margin: 20px;
-    box-sizing: border-box;
-}
-.titulo-conteudo-1
-{
-    text-align: center;
-    color: #0A0A2A;
-    margin: 0px;
-    border-radius: 5px 10px 5px 10px;
-
-}
-/*segunda seção*/
-
-.secao-conteudo-2
+.vetor
 {
     width: 100%;
-    height: auto;   
-}
-
-.caixa-conteudo-2
-{
-    width: 50%;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    border-top: 2px solid #070719;
-    border-left: 2px solid #070719;
-    border-bottom: 2px solid #070719;
-    float: right;
-    margin: 20px;
-    text-align: center;
-    
-}
-
-.citacao
-{
-    color: #B45F04;
-    padding: 10px;
-    border-radius: 10px 5px 10px 5px;
-    font-weight: bold;
-    float:right;
-}
-
-.autor
-{
-    width: 50%;
-    color: #070719;
-    font-weight: bold;
-    margin-left: 20px;
-    border-top: 2px solid #070719;
-    border-right: 2px solid #070719;
-    padding: 10px;
-
-}
-
-/*Terceira seção*/
-
-.secao-conteudo-3
-{
-    width: 50%;
     height: auto;
-    margin: 20px;
-    border-top: 2px solid black;
-    border-right: 2px solid black;
-    display: flex;
-    justify-content: center;
-}
-span
-{
-    color: #B45F04;
 }
 
-.titulo-conteudo-3
+
+.link-id
 {
-    color: #070719;
-    text-align: center;
-    font-size: 24px;
+    text-decoration: none;
+
 }
 
-.span
-{
-    border-radius: 5px;
-}
-
-/*Seção Cards*/
-
-.cards
-{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: space-around;
-    box-shadow: 0px 1px 10px black;
-    background-image: url('../../../public/assets/fundo1.jpg');
-    background-size: cover;
-}
-
-.dev
-{
-
-    width: 300px;
-    height: 100px;
-    margin: 2%;
-    background-color: #151626;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0px 1px 10px white;
-}
-.dev:hover
-{
-    box-shadow: inset 0 0 1em white;
-}
 
 .icones
 {
-    width: 15%;
+    width: 50px;
     height: auto;
-}
-.icones:hover
-{
-    border: 2px solid #B45F04;
-    transition-duration: 1s;
-    box-shadow: 0px 1px 10px black;
-    border-radius: 10px;
-    padding: 10px;
-    box-sizing: border-box;
+    padding: 3px;
 }
 
 .paragrafo-card
 {
-    color: white;
-    font-weight: 300;
+    color: #fff;
+    font-size: 14px;
 }
 
-
-/*Seção 4*/
-
-.secao-conteudo-4
+.secao-slide
 {
     width: 100%;
-    height: auto;
-}
-
-.caixa-conteudo-4
-{
-    width: 50%;
-    height: auto;
-    margin: 20px;
-    border-left: 2px solid #070719;
-    border-bottom: 2px solid #070719;
-    float: right;
     display: flex;
     justify-content: center;
+    background: #f2f2f2;
 }
-
-.paragrafo-conteudo-4
-{
-    width: 70%;
-    color: #070719;
-    text-align: center;
-}
-
-/*seção 5*/
-
-.secao-conteudo-5
-{
-    width: 100%;
-    height: auto;   
-}
-
-.caixa-conteudo-5
-{
-    width: 50%;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    border-top: 2px solid #070719;
-    border-right: 2px solid #070719;
-    border-bottom: 2px solid #070719;
-    margin: 20px;
-    text-align: center;
-    
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px){
-    .secao-conteudo-1{
-        width: 100%;
-    }
-}
-@media screen and (max-width: 767px) {
-    .secao-conteudo-1{
-        display: flex;
-        justify-content: center;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    .caixa-conteudo-1{
-        width: 80%;
-        border: none;
-    }
-
-
-    .secao-conteudo-2{
-        display: none;
-    }
-
-   
-    .secao-conteudo-3{
-        display: none;
-    }
-
-
-    .secao-conteudo-4{
-        display: flex;
-        justify-content: center;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    .caixa-conteudo-4{
-        width: 100%;
-        border: none;
-    }
-    .paragrafo-conteudo-4{
-        width: 100%;
-    }
-
-
-    
-    .secao-conteudo-5{
-        display: none;
-    }
-}
-

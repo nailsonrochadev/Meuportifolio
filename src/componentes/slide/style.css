@@ -1,0 +1,159 @@
+.pagina-slide
+{
+    margin: 10px;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+h2 span
+{
+    color: #B45F04;
+}
+
+.slide-link
+{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 10px;
+}
+
+
+.slide-link li, .slide-link a
+{
+    width: fit-content;
+    color: #070B19;
+    text-decoration: none;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.slide-link ul
+{
+    width: fit-content;
+}
+
+.slide-link div
+{
+    width: 30%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px #070B19;
+}
+
+.a:hover
+{
+    font-weight: bold;
+    color: #2E9AFE;
+}
+
+.agencia
+{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.agencia-1 img
+{
+    width: 60px;
+    height: auto;
+    border-radius: 50px;
+    margin-left: -100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 2px solid #084B8A;
+}
+
+.agencia-2 img
+{
+    width: 60px;
+    height: auto;
+    border-radius: 50px;
+    margin-left: -75px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 2px solid #084B8A;
+}
+
+.agencia-1
+{
+    width: 50%;
+    height: auto;
+    border-radius: 5px 100px 5px 5px;
+    box-shadow: 0px 1px 3px black;
+    margin-bottom: 20px;
+}
+.agencia-2
+{
+    width: 40%;
+    height: auto;
+    border-radius: 5px 100px 5px 5px;
+    box-shadow: 0px 1px 3px black;
+    margin-bottom: 20px;
+}
+.agencia p
+{
+    width: 80%;
+    padding: 10px;
+    color: #070B19;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.slider
+{
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    box-sizing: border-box;
+    background-image: url('../../../public/assets/4.png');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: 100px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.pagina-slide h2
+{
+    text-align: left;
+    margin-left: 30px;
+    font-size: 50px;
+    color: #070B19;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.h3
+{
+    text-align: left;
+    font-size: 20px;
+    color: #070B19;
+    width: fit-content;
+    margin-left: 20px;
+    background-color: #81DAF5;
+    padding-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
