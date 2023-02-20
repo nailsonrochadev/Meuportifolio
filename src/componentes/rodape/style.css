@@ -12,13 +12,40 @@
     color: #fff;
 }
 
+.acopla
+{
+    width: 20%;
+    display: flex;
+    flex-flow: column;
+}
+
+.rodape-logo
+{
+    width: 30%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.rodape-logo h2
+{
+    color: #fff;
+    font-size: 80px;
+    margin-bottom: 0px; 
+    border-bottom: 2px solid #fff;
+}
+.rodape-logo p
+{
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
 .footer
 {
     width: 100%;
     height: auto;
     display: flex;
-    flex-flow: column;
-    justify-content: space-around;
+    flex-flow: nowrap;
     align-content: center;
     background-color: #0A122A;
     background-image: url('../../../public/assets/31.png');
@@ -27,25 +54,13 @@
     background-position-x: 700px;
 }
 
-.link-footer
-{
-    margin-left: 30px;
-    color: #fff;
-    text-decoration: none;
-    text-align: left;
-    width: fit-content;
-    margin-bottom: 5px;
-}
-
 .footer-caixa-links
 {
-    width: 20%;
+    width: auto;
     height: 10vh;
     display: flex;
     flex-flow: column;
     height: auto;
-    margin: 10px;
-    margin-left: 20px;
 }
 
 .footer-caixa-links h2
@@ -56,15 +71,11 @@
     text-align: left;
     padding: 10px;
     border-radius: 10px ;
-
 }
-
-
-
 
 .links-rodape
 {
-    width: fit-content;
+    width: 100%;
     height: auto;
     display: flex;
     flex-flow: column;
