@@ -33,7 +33,7 @@ export default function Conteudo(){
 
                     <div className='box-ferramentas'>
                         <img className='icones' src='../assets/ferramentas.png' alt='Ferramentas'/>
-                        <h3 className='titulo-habilidade-ferramenta'>FERRAMENTAS</h3>
+                        <a className='link-id' href='#front-end'><h3 className='titulo-habilidade-ferramenta'>FERRAMENTAS</h3></a>
                         <p className='paragrafo-habilidade-ferramenta'>Git, GitHub e Scrum...</p>
                     </div>
 
