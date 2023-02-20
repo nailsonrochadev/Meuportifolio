@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './style.css';
 
 import { Propriedades } from '../props/props';
@@ -11,18 +10,17 @@ export default function Rodape(){
                 <div className='footer-caixa-links'>
                     <h2>Mais naro</h2>
                     <div className="links-rodape">
-                        <Link className='link-footer' to='/quemsou'>Quem sou</Link>
-                        <Link className='link-footer' to='/repositorios' >Repositórios</Link>
-                        <a className='link-footer' href='https://www.linkedin.com/in/nailson-rocha-a2b993246/' target='blank'>Linkedin</a>
-                        <Link className='link-footer' to='/contatos'>Contato</Link>
+                        <a className='a-footer' href='#quem-sou'>Quem sou</a>
+                        <a className='a-footer' href='#repositorios' >Repositórios</a>
+                        <a className='a-footer' href='https://www.linkedin.com/in/nailson-rocha-a2b993246/' target='blank'>Linkedin</a>
                     </div>
                 </div>
 
                 <div className='footer-caixa-links meio'>
                     <h2>Redes sociais</h2>
                     <div className="links-rodape">
-                        <Propriedades nome = {<a className='a-footer' href                                            target='blank'>Facebook</a>}/>
-                        <Propriedades nome = {<a className='a-footer' href                                            target='blank'>Instagram</a>}/>
+                        <Propriedades nome = {<a className='a-footer' href                                            target='blank'>Facebook - Em construção</a>}/>
+                        <Propriedades nome = {<a className='a-footer' href                                            target='blank'>Instagram - Em construção</a>}/>
                         <Propriedades nome = {<a className='a-footer' href='https://twitter.com/NailsonRocha_'         target='blank'>Twitter</a>}/>
                         <a className='a-footer' href  target='blank'>Telegram</a>
                     </div>

@@ -1,3 +1,17 @@
+.roda 
+{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    background-color: #070719;
+}
+
+.roda p
+{
+    width: 100%;
+    color: #fff;
+}
+
 .footer
 {
     width: 100%;
@@ -32,7 +46,6 @@
     height: auto;
     margin: 10px;
     margin-left: 20px;
-    border-left: 1px solid #fff;
 }
 
 .footer-caixa-links h2
@@ -63,22 +76,14 @@
     text-align: left;
     margin-left: 30px;
     color: #fff;
-    font-weight: 500;
     width: fit-content;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
-
-
-.roda 
+.a-footer:hover
 {
-    width: 100%;
-    display: flex;
-    flex-flow: column;
-    background-color: #070719;
+    font-weight: bold;
+    margin-left: 35px;
 }
 
-.roda p
-{
-    width: 100%;
-    color: #fff;
-}
+
+
