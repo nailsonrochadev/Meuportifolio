@@ -157,3 +157,37 @@ h2 span
     border-radius: 10px;
     padding: 10px;
 }
+
+@media screen and (max-width: 767px)
+{
+    .pagina-slide
+    {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .pagina-slide h2
+    {
+        width: 80%;
+        font-size: 30px;
+    }
+
+    .slider
+    {
+        display: none;
+    }
+
+    .slide-link
+    {
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+    }
+
+
+    .slide-link div
+    {
+        width: 40%;
+    }
+}

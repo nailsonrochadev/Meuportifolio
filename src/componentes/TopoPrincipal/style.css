@@ -10,11 +10,11 @@
     padding-bottom: 10px;
 }
 
-.logo-topo-principal
+.topo-principal h2
 {
+    width: 20%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
     margin-left: 30px;
     color: white;
     font-weight: 700;
@@ -40,37 +40,49 @@
 
 .link-topo-principal
 {
+    display: flex;
+    flex-flow: nowrap;
+    width: fit-content;
     text-decoration: none;
     padding: 10px;
     color: white;
     font-weight: 500;
+    margin-left: 5px;
+    margin-right: 5px;
     font-size: 12px;    
 }
 
 .link-topo-principal:hover
 {
+    width: fit-content;
+    padding: auto;
+    border-bottom: 2px solid #fff;
+    box-sizing: border-box;
     font-weight: bold;
-    border-bottom: 2px solid #fff
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
-    .logo-topo-principal{
-        width: 100%;
-        border-bottom: 2px solid #fff;
-        text-align: left;
-        margin: 0px;
-    }
-}
-@media screen and (max-width: 767px) {
-    .logo-topo-principal{
-        width: 100%;
-        border-bottom: 2px solid #fff;
-        text-align: left;
-        margin: 0px;
+@media screen and (max-width: 767px) and (max-width: 1023px){
+    .topo-principal
+    {
+        display: flex;
+        flex-flow: column;
     }
 
-    .linkedin{
-        display: none;
+    .topo-principal h2
+    {
+        width: 100%;
+        margin: 0;
+        padding: 10px 0px 10px 30px;
+        box-sizing: border-box;
+    }
+
+    .nav-topo-principal
+    {
+        border-top: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 }

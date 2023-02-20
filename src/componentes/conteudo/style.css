@@ -1,5 +1,7 @@
 .conteudo
 {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-flow: wrap;
     align-content: space-between;
@@ -10,34 +12,39 @@
 
 .boasvindas
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: auto;
     margin-top: 50px;
+    box-sizing: border-box;
 }
 
 .box-boasvindas
 {
-    width: 50%;
+    width: 100%;
     height: auto;
     padding: 10px;
     display: flex;
     flex-flow: column;
-    margin: 20px;
+    justify-content: center;
     text-align: left;
 }
 .titulo-boasvindas
 {
+    width: 80%;
     color: #fff;
     margin: 0px;
     border-radius: 5px 10px 5px 10px;
     font-size: 50px;
-    margin-left: 200px;
-
+    margin-left: 230px;
 }
 
 .paragrafo-boasvindas
 {
     color: #fff;
+    margin-left: 20px;
 }
 
 
@@ -170,3 +177,45 @@
     justify-content: center;
     background: #f2f2f2;
 }
+
+@media screen and (max-width: 767px)
+{
+    .boasvindas
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .box-boasvindas
+    {
+        width: 100%;
+        margin: 30px;
+    }
+
+    .cards-habilidades
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .habilidades
+    {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .habil
+    {   
+        width: 300px;
+        height: 200px;
+    }
+
+    .box-icone
+    {
+        display: none;
+    }
+}
+

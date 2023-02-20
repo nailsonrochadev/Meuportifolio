@@ -97,5 +97,20 @@
     margin-left: 35px;
 }
 
+@media screen and (max-width: 767px){
+    .rodape-logo
+    {
+        display: none;
+    }
+
+    .acopla
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+}
 
 

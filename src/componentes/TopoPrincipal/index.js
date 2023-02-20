@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './style.css';
 
 
@@ -7,7 +6,7 @@ import './style.css';
 export default function TopoPrincipal (){
     return(
         <header className='topo-principal'>
-            <Link className='logo-topo-principal' to='/'>ᑎᗩᖇO</Link>
+            <h2>ᑎᗩᖇO</h2>
             <nav className='nav-topo-principal'>
                 <a className='link-topo-principal qmsou' href='#quem-sou'>QUEM SOU</a>
                 <a className='link-topo-principal' href='#repositorios' >REPOSITÓRIOS</a>
