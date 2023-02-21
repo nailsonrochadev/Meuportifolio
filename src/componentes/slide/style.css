@@ -158,6 +158,7 @@ h2 span
     padding: 10px;
 }
 
+
 @media screen and (max-width: 767px)
 {
     .pagina-slide
@@ -188,6 +189,6 @@ h2 span
 
     .slide-link div
     {
-        width: 40%;
+        width: 300px;
     }
 }

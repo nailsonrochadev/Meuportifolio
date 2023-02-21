@@ -32,7 +32,7 @@ export function Slide (){
 
                 <div className='slidi' id='repositorios'>
                     <h3 className='h3'>Meus projetos</h3>
-                    <ul>
+                    <ul className='ul'>
                         <li><a className='a' href='https://github.com/NailsonRocha/Agencia-de-viagens'>Agência de viagens</a></li>
                         <li><a className='a' href='https://github.com/NailsonRocha/signos'>Signo</a></li>
                         <li><a className='a' href='https://github.com/NailsonRocha/Otica'>Ótica</a></li>
@@ -47,7 +47,7 @@ export function Slide (){
                 
                 <div className='slidi' id='front-end'>
                     <h3 className='h3'>Certificações</h3>
-                    <ul>
+                    <ul className='ul'>
                         <li><a className='a' href='https://www.devmedia.com.br/certificado/tecnologia/algoritmo/nailson-rocha' target='blank'>Algoritimo</a></li>
                         <li><a className='a' href='https://www.devmedia.com.br/certificado/tecnologia/html/nailson-rocha' target='blank'>HTML</a></li>
                         <li><a className='a' href='https://www.devmedia.com.br/certificado/tecnologia/css/nailson-rocha' target='blank'>CSS</a></li>
