@@ -6,7 +6,7 @@ import './style.css';
 export default function TopoPrincipal (){
     return(
         <header className='topo-principal'>
-            <h2>ᑎᗩᖇO</h2>
+            <h2 id='inicio'>ᑎᗩᖇO</h2>
             <nav className='nav-topo-principal'>
                 <a className='link-topo-principal qmsou' href='#quem-sou'>QUEM SOU</a>
                 <a className='link-topo-principal' href='#repositorios' >REPOSITÓRIOS</a>

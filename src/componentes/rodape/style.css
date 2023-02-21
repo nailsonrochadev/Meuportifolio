@@ -20,27 +20,6 @@
     flex-flow: column;
 }
 
-.rodape-logo
-{
-    width: 30%;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-}
-.rodape-logo h2
-{
-    color: #fff;
-    font-size: 80px;
-    margin-bottom: 0px; 
-    border-bottom: 2px solid #fff;
-}
-.rodape-logo p
-{
-    font-size: 30px;
-    letter-spacing: 5px;
-}
-
 .footer
 {
     width: 100%;
@@ -97,6 +76,21 @@
     margin-left: 35px;
 }
 
+.inicio
+{
+    width: 100px;
+    height: auto;
+    margin-top: 30px;
+    background-color: #2EFE9A;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 25px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #070719;
+}
+
 @media screen and (max-width: 767px){
     .footer
     {
@@ -119,11 +113,6 @@
     {
         background-image: none;
     }
-
-    .rodape-logo 
-    {
-        display: none;
-    }
 }
 
 
@@ -145,3 +134,5 @@
         background-image: none;
     }
 }
+
+
