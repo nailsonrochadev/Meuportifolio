@@ -205,7 +205,7 @@
 
     .habilidades
     {
-        width: 60%;
+        width: 80%;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
@@ -214,8 +214,8 @@
 
     .habil
     {   
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height:250px;
     }
 
     .box-icone
