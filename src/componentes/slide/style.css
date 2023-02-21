@@ -192,3 +192,61 @@ h2 span
         width: 300px;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+    .pagina-slide
+    {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .pagina-slide h2
+    {
+        width: 80%;
+        font-size: 30px;
+    }
+
+    .slider
+    {
+        background-position: left;
+    }
+
+    .img-slide
+    {
+        display: none;
+    }
+
+    .agencia-1
+    {
+        width: 410px;
+        border-radius: 10px;
+    }
+
+    .agencia-2
+    {
+        width: 360px;
+        border-radius: 10px;
+    }
+
+    .slide-link
+    {
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+    }
+
+
+    .slide-link div
+    {
+        width: 300px;
+    }
+
+    .slide-link
+    {
+        display: flex;
+        flex-flow: nowrap;
+        justify-content: space-around;
+    }
+}

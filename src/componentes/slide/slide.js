@@ -11,7 +11,7 @@ export function Slide (){
 
             <section className='slider'>
                 <div className='agencia agencia-1' id='quem-sou'>
-                    <img src='assets/foto5.jpg' alt='Minha foto'/>
+                    <img className='img-slide' src='assets/foto5.jpg' alt='Minha foto'/>
                     <p>Nordestino, 29 anos, pai e esposo. Estou muito feliz 
                         com todo o esforço e dedicação. Sei que o caminho é árduo, 
                         mas me considero pronto para dar continuidade à essa jornada tecnológica.
@@ -19,7 +19,7 @@ export function Slide (){
                 </div>
 
                 <div className='agencia agencia-2'>
-                    <img src='assets/foto4.jpg' alt='Minha foto'/>
+                    <img className='img-slide' src='assets/foto4.jpg' alt='Minha foto'/>
                     <p>Busco minha primeira oportunidade como desenvolvedor Front-End 
                         para colocar em prática minhas habilidades adquiridas ao longo
                         do curso realizado na DevMedia.
