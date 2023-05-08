@@ -1,9 +1,11 @@
 .App {
   text-align: center;
-  font-family: fantasy;
+  font-family: 'Share Tech Mono', monoespaçado;
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
+  background-color: #0A122A;
+  box-sizing: border-box;
 }
 

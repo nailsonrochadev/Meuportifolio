@@ -1,34 +1,69 @@
 import React from 'react';
 import './style.css';
 
-import { Propriedades } from '../props/props';
 
 export default function Rodape(){
     return(
-        <div className='roda'>
-            <footer className='footer'>
-                <div className='acopla'>
-                    <div className='footer-caixa-links'>
-                        <h2>Menu</h2>
-                        <div className="links-rodape">
-                            <a className='a-footer' href='#quem-sou'>Quem sou</a>
-                            <a className='a-footer' href='#repositorios' >Repositórios</a>
-                            <a className='a-footer' href='https://www.linkedin.com/in/nailson-rocha-a2b993246/' target='blank'>Linkedin</a>
-                            <Propriedades nome = {<a className='a-footer' href='https://twitter.com/NailsonRocha_'         target='blank'>Twitter</a>}/>
-                            <a className='a-footer' href  target='blank'>Telegram</a>
-                            <Propriedades nome = {<a className='a-footer' href='https://criarmeulink.com.br/u/1670125792' target='blank'>Telefone</a>}/>
-                            <Propriedades nome = {<a className='a-footer' href='https://criarmeulink.com.br/u/1670125716' target='blank'>Email</a>}/>
-                            <Propriedades nome = {<a className='a-footer' href='https://criarmeulink.com.br/u/1670467795' target='blank'>whatsapp</a>}/>
-                            <a className='inicio' href='#inicio'>Inicio</a>
-                        </div>
-                    </div>
-                </div>
-                <div className='rodape-logo'>
-                   
-                </div>
-            </footer>
-            <p>©2022</p>
-        </div>
+        <footer id='contatos'>
+            <div>
+                <h3>REDES SOCIAIS</h3>
+                    <figure>
+                        <img src='assets/tt.png' alt='Twitter'/>
+
+                        <figcaption>
+                        <a  href='https://twitter.com/NailsonRocha_'         target='blank'>Twitter </a>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src='assets/telegram.png' alt='Telegram'/>
+
+                        <figcaption>
+                        <a  href='https://t.me/theNailsonRocha'  target='blank'>Telegram</a>
+                        </figcaption>
+                    </figure>
+                    <figure>
+                        <img src='assets/whatsapp.png' alt='Whatsapp'/>
+
+                        <figcaption>
+                        <a  href='https://api.whatsapp.com/send/?phone=5574999977325&text=Eu%20sou%20Nailson%20Rocha!%20Seja%20bem-vindo!' target='blank'>whatsapp</a>
+                        </figcaption>
+                    </figure>
+            </div>
+            <div>
+                <h3>QUEM SOU</h3>
+                <figure>
+                    <img src='assets/repositorio.png' alt='Repositorio'/>
+
+                    <figcaption>
+                    <a  href='#repositorios' >Repositórios</a>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src='assets/in.png' alt='Linkedin'/>
+
+                    <figcaption>
+                    <a  href='https://www.linkedin.com/in/nailson-rocha-a2b993246/' target='blank'>Linkedin</a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div>
+                <h3>CONTATOS</h3>
+                <figure>
+                    <img src='assets/telefone.png' alt='Telefone'/>
+
+                    <figcaption>
+                        74 99997-7325
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src='assets/email.png' alt='Email'/>
+
+                    <figcaption>
+                        <a href="mailto:nailsonrochaoficial@gmail.com">Email</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </footer>
        
     );
 }

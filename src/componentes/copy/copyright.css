@@ -1,0 +1,13 @@
+.copy
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+    background-color: #0B0719;
+    word-wrap: ;
+}

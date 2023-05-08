@@ -1,97 +1,144 @@
-.conteudo
+main
 {
     width: 100%;
     height: auto;
     display: flex;
     flex-flow: wrap;
     align-content: space-between;
-    background: #0A122A;
+    background-image: url('../../../public/assets/54.png');
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position-x: 810px;
+    background-position-y: 150px;
 }
+
 
 /*Primeira seção*/
 
-.boasvindas
+.section1
 {
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 100%;
     height: auto;
-    margin-top: 50px;
+    margin: 70px 0px;
     box-sizing: border-box;
+    padding: 0px 40px;
 }
 
-.box-boasvindas
+.div1
 {
-    width: 100%;
+    width: 50%;
     height: auto;
-    padding: 10px;
     display: flex;
     flex-flow: column;
-    justify-content: center;
-    text-align: left;
-}
-.titulo-boasvindas
-{
-    width: 80%;
-    color: #fff;
-    margin: 0px;
-    border-radius: 5px 10px 5px 10px;
-    font-size: 50px;
-    margin-left: 230px;
 }
 
-.paragrafo-boasvindas
+.div1 .p
 {
     color: #fff;
-    margin-left: 20px;
+    font-size: 24px;
+    border-right: 2px solid #fff;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 10px;
+    width: fit-content;
+    margin-top: 30px;
+    animation: blinkCursor 500ms steps(40) infinite normal, typing 6s steps(40) 1s infinite normal both;
+    overflow: hidden;
+    text-align: left;
+}
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    to{
+        width: 12.5em;
+    }
+}
+@keyframes blinkCursor {
+    from{
+        border-right-color: #fff;
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
+
+.titulo1
+{
+    width: fit-content;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 44px;
+    font-weight: 1000;
+}
+
+.paragrafo1
+{
+    color: #fff;
+    text-align: left;
+    width: 100%;
 }
 
 
 /*segunda seção*/
 
-.cards-habilidades
+.section2
 {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     align-content: space-around;
+    padding: 0px 40px;
+    margin-bottom: 100px;
 }
 
-.habilidades
+.div2
 {
-    width: 50%;
+    width: 60%;
     height: auto;
     display: flex;
     flex-flow: wrap;
     justify-content: flex-start;
-    margin: 30px;
+    align-items: center;
+    align-content: space-between;
+    box-sizing: border-box;
 }
 
-.box-frontend, .box-ferramentas, .box-formacao, .box-cursos, .box-experiencia
+.div2 div
 {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     display: flex;
     flex-flow: column;
     justify-content: flex-start;
     align-content: space-around;
-    background: #0A122A;
     border-radius: 5px;
-    border: 1px solid #01A9DB;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    border: 1px solid black;
+    margin: 10px;
     text-align: left;
-    padding: 5px;
-    box-shadow: 0px 1px 10px black;
-}
-
-.box-frontend:hover, .box-ferramentas:hover, .box-formacao:hover, .box-cursos:hover, .box-experiencia:hover
-{
-    margin-bottom: 20px;
+    padding: 10px;
     box-sizing: border-box;
-    transition-duration: 3s;
+    transform: rotateY(40deg);
+    animation: two 2s infinite;
+    animation-direction: alternate;
+}
+@keyframes two {
+    0% {
+      transform: rotateY(0);
+    }
+    100% {
+      transform: rotateY(70deg);
+    }
+  }
+
+.div2 div:hover
+{
+    animation: none;
+    transform: none;
+    transition-duration: 1s;
 }
 
 .titulo-habilidade-frontend
@@ -129,115 +176,31 @@
     font-weight: bold;
 }
 
-.paragrafo-habilidade-frontend, .paragrafo-habilidade-ferramenta, .paragrafo-habilidade-formacao, .paragrafo-habilidade-curso, .paragrafo-habilidade-experiencia
+.paragrafo2
 {
     color: #fff;
     font-size: 13px;
 }
 
-.box-icone
-{
-    width: 40%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.vetor
-{
-    width: 100%;
-    height: auto;
-}
-
-
-.link-id
+.div2 div a
 {
     text-decoration: none;
 
 }
 
 
-.icones
+.div2 div img
 {
     width: 50px;
     height: auto;
     padding: 3px;
+    opacity: 50%;
 }
 
-.paragrafo-card
-{
-    color: #fff;
-    font-size: 14px;
-}
-
-.secao-slide
+.section3
 {
     width: 100%;
     display: flex;
     justify-content: center;
     background: #f2f2f2;
-}
-
-@media screen and (max-width: 767px)
-{
-    .boasvindas
-    {
-        display: flex;
-        justify-content: center;
-    }
-    .box-boasvindas
-    {
-        width: 100%;
-        margin: 30px;
-    }
-
-    .titulo-boasvindas
-    {
-        font-size: 24px;
-    }
-
-    .cards-habilidades
-    {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .habilidades
-    {
-        width: 80%;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .habil
-    {   
-        width: 250px;
-        height:250px;
-    }
-
-    .box-icone
-    {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px)
-{
-    .cards-habilidades
-    {
-        display: flex;
-        flex-flow: nowrap;
-
-    }
-    .habilidades
-    {
-        width: 70%;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        align-items: center;
-    }
 }

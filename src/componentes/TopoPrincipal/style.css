@@ -1,93 +1,96 @@
-.topo-principal
+:root
+{
+    --colorBlue: #0A122A;
+    --colorCinza: #848484;
+    --colorLilaz: #070719;
+}
+.header
 {
     width: 100%;
     height: auto;
     display: flex;
-    flex-flow: nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.topo-principal h2
-{
-    width: 20%;
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
-    color: white;
-    font-weight: 700;
-    font-size: 24px;
-    text-decoration: none;
-    height: auto;
-}
-.botao-menu
-{
-    display: none;
-}
-
-.nav-topo-principal
-{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-flow: nowrap;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 10px;
-}
-
-.link-topo-principal
-{
-    display: flex;
-    flex-flow: nowrap;
-    width: fit-content;
-    text-decoration: none;
-    padding: 10px;
-    color: white;
-    font-weight: 500;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 12px;    
-}
-
-.link-topo-principal:hover
-{
-    width: fit-content;
-    padding: auto;
-    border-bottom: 2px solid #fff;
     box-sizing: border-box;
-    font-weight: bold;
+    background-color: var(--colorBlue);
+    color: var(--colorCinza);
+    padding: 10px 40px 0px 40px  ;
+}
+
+header span
+{
+    
+    font-size: 34px;
+    font-weight: 1000;
+    animation: brilho 10s ease-in-out infinite;
+    color: #848484;
+}
+
+header span:nth-of-type(2)
+{
+    animation-delay: 0.25s;
+}
+
+header span:nth-of-type(3)
+{
+    animation-delay: 0.50s;
+}
+
+header span:nth-of-type(4)
+{
+    animation-delay: 0.75s;
+}
+
+header span:nth-of-type(5)
+{
+    animation-delay: 1s;
+}
+
+header span:nth-of-type(6)
+{
+    animation-delay: 1.25s;
 }
 
 
-@media screen and (max-width: 767px) and (max-width: 1023px){
-    .topo-principal
-    {
-        display: flex;
-        flex-flow: column;
-    }
 
-    .topo-principal h2
-    {
-        width: 100%;
-        margin: 0;
-        padding: 10px 0px 10px 30px;
-        box-sizing: border-box;
+@keyframes brilho {
+    0% {
+        color: #fff;
+        text-shadow: 0 0 12px var(--colorLilaz), 
+        0 0 50px var(--colorLilaz), 
+        0 0 100px var(--colorLilaz) ;
     }
-
-    .nav-topo-principal
-    {
-        border-top: 2px solid #fff;
-        border-bottom: 2px solid #fff;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .qmsou
-    {
-        display: none;
+    10%, 90%{
+        color: var(--colorCinza);
+        text-shadow: none;
     }
 }
+
+.navegacao
+{
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navegacao a
+{
+    display: flex;
+    flex-flow: nowrap;
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    box-sizing: border-box;
+    opacity: 50%;
+    border-right: 1px solid white;
+    padding-right: 20px;
+}
+
+.navegacao a:hover
+{
+    opacity: 100%;
+}
+

@@ -1,0 +1,130 @@
+.tech
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; 
+    background-image: url('../../../public/assets/nuvem4.png');
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position-y: 100px;
+}
+
+.titulo-tech
+{
+    width: fit-content;
+    font-size: 24px;
+    letter-spacing: 10px;
+    padding: 40px;
+    margin: 0;
+    color: #0A122A;
+    text-align: center;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, #01DFA5, #5F04B4 , #0A122A );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-tech
+{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px;
+    box-sizing: border-box;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+}
+
+.card-tech div:nth-of-type(1)
+{
+    width: 860px;
+    height: 200px;
+    border-radius: 30% 70% 70% 30% / 30% 52% 48% 70%;
+    box-shadow: 0px 1px 10px black;
+    margin-left: -250px;
+    background-color:#0431b4;
+    box-sizing: border-box;
+    animation: float 15s infinite alternate;
+}
+
+@keyframes float 
+{
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(40%);
+    }
+}
+
+.card-tech div:nth-of-type(2)
+{
+    width: 860px;
+    height: 200px;
+    border-radius: 30% 70% 70% 30% / 30% 52% 48% 70%;
+    box-shadow: 0px 1px 10px black;
+    background-color: #0431b4;
+    box-sizing: border-box;
+    margin-left: -250px;
+    animation: float 15s infinite alternate-reverse;
+}
+
+.card-tech h3
+{
+    color: #fff;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 30% 70% 70% 30% / 30% 52% 48% 70%;
+    background-color: #0431b4;
+    border: 1px solid #fff;
+
+}
+
+.card-tech a 
+{
+    text-decoration: none;
+    width: fit-content;
+    margin: 5px;
+    padding: 10px;
+    color: #0431b4;
+    border-radius: 30% 70% 70% 30% / 30% 52% 48% 70%;
+    background-color: #f2f2f2;
+}
+
+.card-tech div:nth-of-type(1) nav:nth-of-type(1) a:nth-of-type(7)
+{
+    background-color: #81BEF7;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: bold;
+   /* animation: pisca 1s infinite; */
+}
+
+
+
+
+/*
+
+@keyframes pisca{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+*/
