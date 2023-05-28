@@ -204,3 +204,23 @@ main
     justify-content: center;
     background: #f2f2f2;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .main{
+        background-image: none;
+    }
+    .p{
+        display: none;
+    }
+    .div1{
+        width: 100%;
+    }
+
+    .div2{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+}

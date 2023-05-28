@@ -94,3 +94,18 @@ header span:nth-of-type(6)
     opacity: 100%;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header{
+        display: flex;
+        flex-flow: column;
+    }
+    .header div{
+        width: 100%;
+    }
+    .header nav{
+        margin-top: 10px;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
